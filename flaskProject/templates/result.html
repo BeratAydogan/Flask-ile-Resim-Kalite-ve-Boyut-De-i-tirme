@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resim Kalite Değiştirme</title>
+</head>
+<body style="text-align: center;align-items: center;">
+     <h2>Orjinal</h2>
+    <img src="{{ url_for('static', filename='uploads/'+original) }}" alt="Original Image" >
+
+    <h2>Değiştirilmiş</h2>
+    <img src="{{ url_for('static', filename='uploads/'+resized) }}" alt="Resized Image" >
+</body>
+</html>
